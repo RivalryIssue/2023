@@ -1,0 +1,125 @@
+#landing {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: fit-content;
+	min-height: 100vh;
+	background: linear-gradient(to right, var(--color-lantern) 50%, var(--color-daily) 50% 100%);
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+}
+
+#logos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	color: white;
+	font-weight: bold;
+	margin-top: 0.25rem;
+
+	span {
+		font-size: 2.5rem;
+		line-height: 0rem;
+	}
+}
+
+#lantern-helmet,
+#daily-helmet {
+	position: absolute;
+	bottom: 5%;
+}
+
+#lantern-helmet {
+	right: 5%;
+}
+
+#daily-helmet {
+	left: 5%;
+}
+
+@media screen and (max-width: 560px) {
+	#logos {
+		flex-direction: column;
+		gap: 0;
+		span {
+			font-size: 2rem;
+			line-height: 1rem;
+		}
+	}
+}
+
+@media screen and (max-width: 447px) {
+	#lantern-helmet {
+		right: 2.5%;
+		bottom: 2.5%;
+	}
+
+	#daily-helmet {
+		left: 2.5%;
+		bottom: 2.5%;
+	}
+}
+
+#hero {
+	font-size: 3rem;
+
+	@media screen and (max-width: 760px) {
+		font-size: 2rem;
+	}
+}
+
+#left-flag,
+#right-flag {
+	--flag-height: 110px;
+
+	position: relative;
+	width: 40px;
+	height: var(--flag-height);
+	background-color: white;
+
+	@media screen and (max-width: 760px) {
+		--flag-height: 80px;
+	}
+
+	@media screen and (max-width: 550px) {
+		display: none;
+	}
+}
+
+#left-flag::after,
+#right-flag::after {
+	content: ' ';
+	position: absolute;
+	border-top: calc(var(--flag-height) / 2) solid transparent;
+	border-bottom: calc(var(--flag-height) / 2) solid transparent;
+}
+
+#left-flag::after {
+	border-left: 20px solid var(--color-lantern);
+}
+
+#right-flag::after {
+	left: 20px;
+	border-right: 20px solid var(--color-daily);
+}
+
+.chevron {
+	position: absolute;
+	bottom: 3vh;
+	background-color: transparent;
+	border: none;
+
+	svg {
+		width: 50px;
+		height: 50px;
+		color: white;
+		font-size: 50px;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
