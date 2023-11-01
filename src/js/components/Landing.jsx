@@ -53,20 +53,20 @@ const LandingPage = () => (
 				/>
 			</a>
 		</div>
-		<div id="lantern-helmet">
+		<div id="lantern-icon">
 			<img
-				alt="Ohio State football helmet with The Lantern logo"
-				srcSet="https://i1.wp.com/www.michigandaily.com/wp-content/uploads/2022/11/lantern-helmet.png?w=300 300w, https://i1.wp.com/www.michigandaily.com/wp-content/uploads/2022/11/lantern-helmet.png?w=500 500w"
+				alt="Ohio State football player running"
+				srcSet="https://i1.wp.com/www.michigandaily.com/wp-content/uploads/2023/10/Rivalry_Logo_Sketches_3-copy.png?w=300 300w, https://i1.wp.com/www.michigandaily.com/wp-content/uploads/2023/10/Rivalry_Logo_Sketches_3-copy.png?w=500 500w"
 				sizes="(max-width: 447px) 130px, (max-width: 560px) 200px, (max-width: 1200px) 250px, 300px"
-				src="https://i1.wp.com/www.michigandaily.com/wp-content/uploads/2022/11/lantern-helmet.png?w=500"
+				src="https://i1.wp.com/www.michigandaily.com/wp-content/uploads/2023/10/Rivalry_Logo_Sketches_3-copy.png?w=500"
 			/>
 		</div>
-		<div id="daily-helmet">
+		<div id="daily-icon">
 			<img
-				alt="Michigan football helmet with The Michigan Daily logo"
-				srcSet="https://i1.wp.com/www.michigandaily.com/wp-content/uploads/2023/10/Rivalry_Logo_Sketches_3.png?w=300 300w, https://i1.wp.com/www.michigandaily.com/wp-content/uploads/2023/10/Rivalry_Logo_Sketches_3.png?w=500 500w"
+				alt="University of Michigan football player running"
+				srcSet="https://i1.wp.com/www.michigandaily.com/wp-content/uploads/2023/10/Rivalry_Logo_Sketches_3-1.png?w=300 300w, https://i1.wp.com/www.michigandaily.com/wp-content/uploads/2023/10/Rivalry_Logo_Sketches_3-1.png?w=500 500w"
 				sizes="(max-width: 447px) 130px, (max-width: 560px) 200px, (max-width: 1200px) 250px, 300px"
-				src="https://i1.wp.com/www.michigandaily.com/wp-content/uploads/2023/10/Rivalry_Logo_Sketches_3.png?w=500"
+				src="https://i1.wp.com/www.michigandaily.com/wp-content/uploads/2023/10/Rivalry_Logo_Sketches_3-1.png?w=500"
 			/>
 		</div>
 		<a href="#main" type="button" className="chevron" aria-label="Scroll down">

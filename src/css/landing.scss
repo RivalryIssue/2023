@@ -5,7 +5,7 @@
 	align-items: center;
 	height: fit-content;
 	min-height: 100vh;
-	background: linear-gradient(to right, var(--color-lantern) 50%, var(--color-daily) 50% 100%);
+	background: linear-gradient(to right, #7C91A4 50%, #C28274 50% 100%);
 }
 
 h1 {
@@ -27,17 +27,17 @@ h1 {
 	}
 }
 
-#lantern-helmet,
-#daily-helmet {
+#lantern-icon,
+#daily-icon {
 	position: absolute;
 	bottom: 5%;
 }
 
-#lantern-helmet {
+#lantern-icon {
 	right: 5%;
 }
 
-#daily-helmet {
+#daily-icon {
 	left: 5%;
 }
 
@@ -53,12 +53,12 @@ h1 {
 }
 
 @media screen and (max-width: 447px) {
-	#lantern-helmet {
+	#lantern-icon {
 		right: 2.5%;
 		bottom: 2.5%;
 	}
 
-	#daily-helmet {
+	#daily-icon {
 		left: 2.5%;
 		bottom: 2.5%;
 	}
@@ -99,12 +99,12 @@ h1 {
 }
 
 #left-flag::after {
-	border-left: 20px solid var(--color-lantern);
+	border-left: 20px solid #7C91A4;
 }
 
 #right-flag::after {
 	left: 20px;
-	border-right: 20px solid var(--color-daily);
+	border-right: 20px solid #C28274;
 }
 
 .chevron {
