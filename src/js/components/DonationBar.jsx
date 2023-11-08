@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const DonationBar = ({ organization, amount, color }) => {
+const DonationBar = ({ amount, color }) => {
 	const formatter = new Intl.NumberFormat('en-US', {
 		style: 'currency',
 		currency: 'USD',
@@ -21,8 +21,8 @@ const DonationBar = ({ organization, amount, color }) => {
 					height: 'fit-content'
 				}}
 			>
-				<div style={{ textAlign: 'start', marginBottom: '5px' }}>
-					<b>{organization}</b> ({formatter.format(amount)} out of {formatter.format(goal)})
+				<div style={{ textAlign: 'center', marginBottom: '5px'}}>
+					{formatter.format(amount)} out of {formatter.format(goal)} goal
 				</div>
 				<div
 					style={{

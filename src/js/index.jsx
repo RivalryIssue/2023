@@ -9,13 +9,13 @@ import ArticleGrid from './components/ArticleGrid';
 
 import copy from '../data/copy.json';
 import articles from '../data/data.csv';
+import SchoolContainer from './components/SchoolContainer';
 
 createRoot(document.getElementById('root')).render(
 	<StrictMode>
 		<Landing data={copy} />
 		<Intro description={copy.homepage.description} />
-		<DonationGraphic />
-		<SchoolVideos />
+		<SchoolContainer />
 		<ArticleGrid data={articles} />
 	</StrictMode>
 );
