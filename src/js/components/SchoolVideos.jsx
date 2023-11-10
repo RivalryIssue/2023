@@ -33,7 +33,7 @@ const SchoolVideos = ({ school, isMobile, lanternMoney, dailyMoney }) => {
 				<div className="player-wrapper">
 					<lite-youtube
 						key={"lantern"}
-						videoid="7S7mrNkKfnI"
+						videoid="Gt7d42iFr4Q"
 						playlabel="The Lantern vs. Michigan Daily Rivalry 2022"
 					/>
 				</div>
