@@ -25,7 +25,9 @@ const SchoolContainer = () => {
         <div className='school-container'>
             <DonationGraphic setSelectedSchool={setSelectedSchool} isMobile={isMobile}/>
             <SchoolVideos school={selectedSchool} isMobile={isMobile} lanternMoney={lanternMoney} dailyMoney={dailyMoney} />
-            {/* <DonationButton school={selectedSchool} lanternMoney={lanternMoney} dailyMoney={dailyMoney} /> */}
+
+
+            {/* LEAVE THIS COMMENT <DonationButton school={selectedSchool} lanternMoney={lanternMoney} dailyMoney={dailyMoney} /> */}
         </div>
     )
 };
