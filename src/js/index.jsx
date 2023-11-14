@@ -16,6 +16,6 @@ createRoot(document.getElementById('root')).render(
 		<Landing data={copy} />
 		<Intro description={copy.homepage.description} />
 		<SchoolContainer />
-		{/*  UNCOMMENT <ArticleGrid data={articles} /> */}
+		<ArticleGrid data={articles} />
 	</StrictMode>
 );

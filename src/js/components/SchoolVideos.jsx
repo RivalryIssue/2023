@@ -17,9 +17,9 @@ const SchoolVideos = ({ school, isMobile, lanternMoney, dailyMoney }) => {
 			(<>
 				<div className="schoolVideo">
 					<p className="schoolName">The Michigan Daily</p>
-					{/* UNCOMMENT <div className="player-wrapper">
-						<lite-youtube key={"daily"} videoid="92hbzgzqRqo" playlabel="Michigan Daily Rivalry Edition 2022" />
-					</div> */}
+					<div className="player-wrapper">
+						<lite-youtube key={"daily"} videoid="Mh5UPyxaEPY" playlabel="Michigan Daily Rivalry Edition 2022" />
+					</div>
 					<DonationButton school={"daily"} lanternMoney={lanternMoney} dailyMoney={dailyMoney} isMobile={isMobile}/>
 				</div>
 				
