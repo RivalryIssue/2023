@@ -13,7 +13,7 @@ const SchoolContainer = () => {
 	const [dailyMoney, setDailyMoney] = useState(0);
 
 	useEffect(() => {
-		fetch('https://data.michigandaily.com/rivalry-edition-donations/2023.json')
+		fetch('https://stash.michigandaily.com/rivalry-edition-donations/2023.json')
 			.then((response) => response.json())
 			.then(({ lantern, daily }) => {
 				setLanternMoney(Number(lantern));
